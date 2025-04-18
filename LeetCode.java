@@ -37,8 +37,8 @@ public class LeetCode {
 		Thread.sleep(30000);
 		
 		//Log-In Leetcode with Credetials
-		driver.findElement(By.className("input__2o8B")).sendKeys("sudharsan8113");
-		driver.findElement(By.id("id_password")).sendKeys("Sanxo@8113");
+		driver.findElement(By.className("input__2o8B")).sendKeys("xxx"); //Enter you user id on the 'xxx'
+		driver.findElement(By.id("id_password")).sendKeys("yyy"); //Enter your password on the 'yyy'
 		driver.findElement(By.className("btn-content-container__2HVS")).click();
 		
 		//Traversing to problems page
